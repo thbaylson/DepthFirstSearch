@@ -80,9 +80,9 @@ class Graph {
     }//End buildAdjacencies
 
     /**
-     * Entry point to run operations specified in the handout.
+     * Entry point to run operations specified in the README.
      */
-    void go(){
+    public void go(){
         Scanner sc = new Scanner(System.in);
         boolean inputLoop = true;
         while(inputLoop){
